@@ -14,4 +14,3 @@ while not valid:
             print(f"Money wagered: ${money_wager}")
     except ValueError:
         print(error)
-
