@@ -18,6 +18,6 @@ def num_check(question, low, high):
             print(error)
 
 # main routine
-money_wager = num_check("--How much would you like to deposit?--", 0, 10)
+money_wager = num_check("--How much money would you like to wager?--", 0, 10)
 # how much has been deposited
 print(f"Money wagered: ${money_wager}")
