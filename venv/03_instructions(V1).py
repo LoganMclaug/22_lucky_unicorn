@@ -37,3 +37,4 @@ played_before = yes_no("Have you played the Lucky Unicorn Game before? (y/n)")
 if played_before == "no":
     instructions()
 print("Program continues")
+
